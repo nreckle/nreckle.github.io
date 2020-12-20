@@ -8,12 +8,42 @@
   </url>
   
   <url>
+    <loc>http://nreckle.github.io/</loc>
+    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/categories/</loc>
+    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/tags/ci/</loc>
+    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/tags/github/</loc>
+    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/categories/github/</loc>
+    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://nreckle.github.io/post/how-to-build-site-with-hugo/</loc>
     <lastmod>2020-12-20T14:05:59+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://nreckle.github.io/</loc>
+    <loc>http://nreckle.github.io/tags/hugo/</loc>
+    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/categories/hugo/</loc>
     <lastmod>2020-12-20T14:05:59+08:00</lastmod>
   </url>
   
@@ -23,15 +53,8 @@
   </url>
   
   <url>
-    <loc>http://nreckle.github.io/post/test02/</loc>
-  </url>
-  
-  <url>
-    <loc>http://nreckle.github.io/categories/</loc>
-  </url>
-  
-  <url>
     <loc>http://nreckle.github.io/tags/</loc>
+    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
   </url>
   
 </urlset>

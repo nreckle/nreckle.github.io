@@ -1,13 +1,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Nreckle</title>
+    <title>Categories on </title>
     <link>http://nreckle.github.io/categories/</link>
-    <description>Recent content in Categories on Nreckle</description>
+    <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 20 Dec 2020 14:05:59 +0800</lastBuildDate>
     
         <atom:link href="http://nreckle.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>github</title>
+      <link>http://nreckle.github.io/categories/github/</link>
+      <pubDate>Sun, 20 Dec 2020 14:05:59 +0800</pubDate>
+      
+      <guid>http://nreckle.github.io/categories/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>http://nreckle.github.io/categories/hugo/</link>
+      <pubDate>Sun, 20 Dec 2020 14:05:59 +0800</pubDate>
+      
+      <guid>http://nreckle.github.io/categories/hugo/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
