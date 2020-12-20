@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>http://nreckle.github.io/test02/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://nreckle.github.io/categories/</loc>
   </url>
   
