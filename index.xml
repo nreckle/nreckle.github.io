@@ -1,0 +1,33 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nreckle</title>
+    <link>http://nreckle.github.io/</link>
+    <description>Recent content on Nreckle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Dec 2020 14:05:59 +0800</lastBuildDate>
+    
+        <atom:link href="http://nreckle.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://nreckle.github.io/about/</link>
+      <pubDate>Sun, 20 Dec 2020 14:13:35 +0800</pubDate>
+      
+      <guid>http://nreckle.github.io/about/</guid>
+      <description>&lt;p&gt;一个初学者，有纯粹的心灵，有探索的勇气，有思考的大脑，有不放弃的斗志，进步很慢依然坚持不懈&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>http://nreckle.github.io/post/</link>
+      <pubDate>Sun, 20 Dec 2020 14:05:59 +0800</pubDate>
+      
+      <guid>http://nreckle.github.io/post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

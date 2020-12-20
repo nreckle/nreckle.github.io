@@ -1,0 +1,25 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Nreckle</title>
+    <link>http://nreckle.github.io/post/</link>
+    <description>Recent content in Posts on Nreckle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Dec 2020 14:05:59 +0800</lastBuildDate>
+    
+        <atom:link href="http://nreckle.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Build Site With Hugo</title>
+      <link>http://nreckle.github.io/post/how-to-build-site-with-hugo/</link>
+      <pubDate>Sun, 20 Dec 2020 14:05:59 +0800</pubDate>
+      
+      <guid>http://nreckle.github.io/post/how-to-build-site-with-hugo/</guid>
+      <description>&lt;h2 id=&#34;1-prepare&#34;&gt;1. Prepare&lt;/h2&gt;
+&lt;h2 id=&#34;2-start&#34;&gt;2. Start&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
