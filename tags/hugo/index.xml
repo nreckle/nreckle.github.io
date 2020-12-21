@@ -11,13 +11,17 @@
     
     
     <item>
-      <title>How to Build Site With Hugo</title>
+      <title>使用 hugo 创建个人博客</title>
       <link>http://nreckle.github.io/post/how-to-build-site-with-hugo/</link>
       <pubDate>Sun, 20 Dec 2020 14:05:59 +0800</pubDate>
       
       <guid>http://nreckle.github.io/post/how-to-build-site-with-hugo/</guid>
-      <description>&lt;h2 id=&#34;1-prepare&#34;&gt;1. Prepare&lt;/h2&gt;
-&lt;h2 id=&#34;2-start&#34;&gt;2. Start&lt;/h2&gt;
+      <description>&lt;p&gt;&lt;code&gt;Github&lt;/code&gt; &lt;code&gt;pages&lt;/code&gt; 搭配 &lt;code&gt;hugo&lt;/code&gt; 创建个人博客&lt;/p&gt;
+&lt;h2 id=&#34;1-准备工作&#34;&gt;1. 准备工作&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;github&lt;/code&gt; 帐号&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;travis&lt;/code&gt; 帐号&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
