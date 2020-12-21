@@ -5,10 +5,19 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Dec 2020 14:05:59 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 21 Dec 2020 13:38:51 +0800</lastBuildDate>
     
         <atom:link href="http://nreckle.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Posts</title>
+      <link>http://nreckle.github.io/post/</link>
+      <pubDate>Mon, 21 Dec 2020 13:38:51 +0800</pubDate>
+      
+      <guid>http://nreckle.github.io/post/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>关于</title>
@@ -18,15 +27,6 @@
       <guid>http://nreckle.github.io/about/</guid>
       <description>&lt;p&gt;一个初学者，不愿平庸而又慵懒，喜欢纯净的代码，喜欢轻盈的设计，希望做更好的自己，日积跬步，梦向千里！&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Posts</title>
-      <link>http://nreckle.github.io/post/</link>
-      <pubDate>Sun, 20 Dec 2020 14:05:59 +0800</pubDate>
-      
-      <guid>http://nreckle.github.io/post/</guid>
-      <description></description>
     </item>
     
     <item>

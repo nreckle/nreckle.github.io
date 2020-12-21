@@ -3,18 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://nreckle.github.io/about/</loc>
-    <lastmod>2020-12-20T14:13:35+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://nreckle.github.io/</loc>
-    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
+    <lastmod>2020-12-21T13:38:51+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/categories/</loc>
-    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
+    <lastmod>2020-12-21T13:38:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/post/</loc>
+    <lastmod>2020-12-21T13:38:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/tags/</loc>
+    <lastmod>2020-12-21T13:38:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/post/study/</loc>
+    <lastmod>2020-12-21T13:38:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/categories/%E5%8F%A4%E6%96%87%E8%B5%8F%E6%9E%90/</loc>
+    <lastmod>2020-12-21T13:38:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/tags/%E6%96%87%E5%AD%A6/</loc>
+    <lastmod>2020-12-21T13:38:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/about/</loc>
+    <lastmod>2020-12-20T14:13:35+08:00</lastmod>
   </url>
   
   <url>
@@ -34,16 +59,6 @@
   
   <url>
     <loc>http://nreckle.github.io/tags/hugo/</loc>
-    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://nreckle.github.io/post/</loc>
-    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://nreckle.github.io/tags/</loc>
     <lastmod>2020-12-20T14:05:59+08:00</lastmod>
   </url>
   
