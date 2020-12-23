@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
@@ -5,17 +6,59 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Dec 2020 13:38:51 +0800</lastBuildDate>
+    <copyright>Copyright (c) 2020, all rights reserved.</copyright>
+    <lastBuildDate>Mon, 21 Dec 2020 19:39:33 +0800</lastBuildDate><atom:link href="http://nreckle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>人性</title>
+      <link>http://nreckle.github.io/tags/%E4%BA%BA%E6%80%A7/</link>
+      <pubDate>Mon, 21 Dec 2020 19:39:33 +0800</pubDate>
+      
+      <guid>http://nreckle.github.io/tags/%E4%BA%BA%E6%80%A7/</guid>
+      <description></description>
+    </item>
     
-        <atom:link href="http://nreckle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>信仰</title>
+      <link>http://nreckle.github.io/tags/%E4%BF%A1%E4%BB%B0/</link>
+      <pubDate>Mon, 21 Dec 2020 19:39:33 +0800</pubDate>
+      
+      <guid>http://nreckle.github.io/tags/%E4%BF%A1%E4%BB%B0/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>入世</title>
+      <link>http://nreckle.github.io/tags/%E5%85%A5%E4%B8%96/</link>
+      <pubDate>Mon, 21 Dec 2020 19:39:33 +0800</pubDate>
+      
+      <guid>http://nreckle.github.io/tags/%E5%85%A5%E4%B8%96/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>出世</title>
+      <link>http://nreckle.github.io/tags/%E5%87%BA%E4%B8%96/</link>
+      <pubDate>Mon, 21 Dec 2020 19:39:33 +0800</pubDate>
+      
+      <guid>http://nreckle.github.io/tags/%E5%87%BA%E4%B8%96/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>文学</title>
       <link>http://nreckle.github.io/tags/%E6%96%87%E5%AD%A6/</link>
-      <pubDate>Mon, 21 Dec 2020 13:38:51 +0800</pubDate>
+      <pubDate>Mon, 21 Dec 2020 19:39:33 +0800</pubDate>
       
       <guid>http://nreckle.github.io/tags/%E6%96%87%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>武侠</title>
+      <link>http://nreckle.github.io/tags/%E6%AD%A6%E4%BE%A0/</link>
+      <pubDate>Mon, 21 Dec 2020 19:39:33 +0800</pubDate>
+      
+      <guid>http://nreckle.github.io/tags/%E6%AD%A6%E4%BE%A0/</guid>
       <description></description>
     </item>
     

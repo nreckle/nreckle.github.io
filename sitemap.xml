@@ -1,78 +1,163 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="http://nreckle.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
     <loc>http://nreckle.github.io/categories/</loc>
-    <lastmod>2020-12-21T13:38:51+08:00</lastmod>
+    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/post/</loc>
-    <lastmod>2020-12-21T13:38:51+08:00</lastmod>
+    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/tags/</loc>
-    <lastmod>2020-12-21T13:38:51+08:00</lastmod>
+    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/</loc>
-    <lastmod>2020-12-21T13:38:51+08:00</lastmod>
+    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/tags/%E4%BA%BA%E6%80%A7/</loc>
+    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/tags/%E4%BF%A1%E4%BB%B0/</loc>
+    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/tags/%E5%85%A5%E4%B8%96/</loc>
+    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/tags/%E5%87%BA%E4%B8%96/</loc>
+    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/tags/%E6%96%87%E5%AD%A6/</loc>
+    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/categories/%E6%96%87%E5%AD%A6/</loc>
+    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/tags/%E6%AD%A6%E4%BE%A0/</loc>
+    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/post/%E7%9C%8B%E9%87%91%E5%BA%B8%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/post/study/</loc>
     <lastmod>2020-12-21T13:38:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/post/%E5%8A%9D%E5%AD%A6/</loc>
+    <lastmod>2020-12-21T13:38:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/categories/%E5%8F%A4%E6%96%87%E8%B5%8F%E6%9E%90/</loc>
     <lastmod>2020-12-21T13:38:51+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://nreckle.github.io/tags/%E6%96%87%E5%AD%A6/</loc>
-    <lastmod>2020-12-21T13:38:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/about/</loc>
     <lastmod>2020-12-20T14:13:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/tags/ci/</loc>
     <lastmod>2020-12-20T14:05:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/categories/coding/</loc>
     <lastmod>2020-12-20T14:05:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/tags/github/</loc>
     <lastmod>2020-12-20T14:05:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/tags/hugo/</loc>
     <lastmod>2020-12-20T14:05:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/post/how-to-build-site-with-hugo/</loc>
     <lastmod>2020-12-20T14:05:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/archive/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/tag/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>
