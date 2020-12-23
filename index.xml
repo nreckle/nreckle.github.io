@@ -26,14 +26,5 @@
       <description>君子曰：学不可以已。 青，取之于蓝，而青于蓝；冰，水为之，而寒于水。木直中绳，輮以为轮，其曲中规。虽有槁暴，不复挺者，輮使之然也。故木受绳则直</description>
     </item>
     
-    <item>
-      <title>使用 hugo 创建个人博客</title>
-      <link>http://nreckle.github.io/post/how-to-build-site-with-hugo/</link>
-      <pubDate>Sun, 20 Dec 2020 14:05:59 +0800</pubDate>
-      
-      <guid>http://nreckle.github.io/post/how-to-build-site-with-hugo/</guid>
-      <description>Github pages 搭配 hugo 创建个人博客 1. 准备工作 github 帐号 travis 帐号</description>
-    </item>
-    
   </channel>
 </rss>

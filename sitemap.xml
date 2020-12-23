@@ -107,41 +107,6 @@
   </url>
   
   <url>
-    <loc>http://nreckle.github.io/tags/ci/</loc>
-    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://nreckle.github.io/categories/coding/</loc>
-    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://nreckle.github.io/tags/github/</loc>
-    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://nreckle.github.io/tags/hugo/</loc>
-    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://nreckle.github.io/post/how-to-build-site-with-hugo/</loc>
-    <lastmod>2020-12-20T14:05:59+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://nreckle.github.io/archive/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
