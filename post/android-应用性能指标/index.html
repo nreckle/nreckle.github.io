@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Android 应用性能指标 - </title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Nreckle" /><meta name="description" content="TODO: 检测方式&amp;amp;优化方向 一个 App 的定位，由产品经理和老板负责；一个 App 的用户体验由 UI/UE 负责；一个 App 的性能和稳定由开发者负责。三者都是一个 App 是否" /><meta name="keywords" content="Android, 性能, 指标" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.79.1 with theme even" />
+
+
+<link rel="canonical" href="http://nreckle.github.io/post/android-%E5%BA%94%E7%94%A8%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.b5a744db6de49a86cadafb3b70f555ab443f83c307a483402259e94726b045ff.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Android 应用性能指标" />
+<meta property="og:description" content="TODO: 检测方式&amp;优化方向 一个 App 的定位，由产品经理和老板负责；一个 App 的用户体验由 UI/UE 负责；一个 App 的性能和稳定由开发者负责。三者都是一个 App 是否" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://nreckle.github.io/post/android-%E5%BA%94%E7%94%A8%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87/" />
+<meta property="article:published_time" content="2021-01-07T15:24:17+08:00" />
+<meta property="article:modified_time" content="2021-01-07T15:24:17+08:00" />
+<meta itemprop="name" content="Android 应用性能指标">
+<meta itemprop="description" content="TODO: 检测方式&amp;优化方向 一个 App 的定位，由产品经理和老板负责；一个 App 的用户体验由 UI/UE 负责；一个 App 的性能和稳定由开发者负责。三者都是一个 App 是否">
+<meta itemprop="datePublished" content="2021-01-07T15:24:17+08:00" />
+<meta itemprop="dateModified" content="2021-01-07T15:24:17+08:00" />
+<meta itemprop="wordCount" content="1613">
+
+
+
+<meta itemprop="keywords" content="Android,技术,性能,指标," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Android 应用性能指标"/>
+<meta name="twitter:description" content="TODO: 检测方式&amp;优化方向 一个 App 的定位，由产品经理和老板负责；一个 App 的用户体验由 UI/UE 负责；一个 App 的性能和稳定由开发者负责。三者都是一个 App 是否"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo"></a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">主页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">类别</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo"></a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">主页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">类别</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Android 应用性能指标</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2021-01-07 </span>
+        <div class="post-category">
+            <a href="/categories/android/"> Android </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#apk-文件大小">APK 文件大小</a></li>
+            <li><a href="#安装速度">安装速度</a></li>
+            <li><a href="#启动时间">启动时间</a></li>
+            <li><a href="#cpu-占用">CPU 占用</a></li>
+            <li><a href="#内存占用">内存占用</a></li>
+            <li><a href="#gpu-占用">GPU 占用</a></li>
+            <li><a href="#流量使用">流量使用</a></li>
+            <li><a href="#耗电量">耗电量</a></li>
+            <li><a href="#电池温度">电池温度</a></li>
+            <li><a href="#fps">FPS</a></li>
+            <li><a href="#硬盘占用disk占用">硬盘占用/DISK占用</a></li>
+            <li><a href="#崩溃率">崩溃率</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p><strong>TODO</strong>: 检测方式&amp;优化方向</p>
+<p>一个 App 的定位，由产品经理和老板负责；一个 App 的用户体验由 UI/UE 负责；一个 App 的性能和稳定由开发者负责。三者都是一个 App 是否能够成功的重要因素。</p>
+<p>检验一个 Androd App 的性能的好坏有很多的指标，这些指标将是一个优秀的 Android App 追求的目标，也是一个 Android 功能师追求的目标。这里尽可能的罗列与一款 Android App 性能相关的指标。排名不分先后，相互之间可能有重叠。</p>
+<h3 id="apk-文件大小">APK 文件大小</h3>
+<p>APK 文件大小直接影响到用户下载文件的时间和流量，对安装速度也会有影响。虽然有很多用户并不关心，也不懂，但是作为开发者，咱们可以通过与其他 App 横向对比，一般来说，一个单一的工具类应用的体积不应该比一个平台类的 App 大。比如一个天气预报应用，如果它比微信、QQ还大，那么咱们觉得它肯定有问题。</p>
+<p>一般来说，安装文件大的应用，安装后占用的空间也会大，所有从这个角度来说，减少 APK 文件的体积也是必要的，或者把 APK 文件体积纳入到性能指标也是有一定意义的。</p>
+<p>当然，相对与其他指标，APK 文件体积并不是那么的重要，到底需不需去考量，需要跟自身当前的情况具体分析了。</p>
+<h3 id="安装速度">安装速度</h3>
+<p>在一些第三方测评平台，可以给出 APK 的安装速度，影响安装速度的因素有很多，上面所说的安装文件体积是一方面，手机和系统本身也会影响安装速度。另外一个指标是安装失败率，这样的数据一般只有通过第三方测评公司给出。</p>
+<h3 id="启动时间">启动时间</h3>
+<p>启动时间对于一个 App 也是很重要的。影响启动时间的因素不少，在启动的时候，加载的内容多少，加载的资源大小，都影响到了启动时间。优化的时候可以考虑从减少启动加载的内容和延迟加载入手。</p>
+<h3 id="cpu-占用">CPU 占用</h3>
+<p>一般指在一个时间端内，CPU 的占用值，由最高值，最低值和平均值。这三个简单的数值并不能很好的考量一个 App 的性能，只能从一定程度上反映了 App 的运行是否出现问题。</p>
+<h3 id="内存占用">内存占用</h3>
+<p>内存的占用并不一定是越少越好。Android 系统为每个应用设定了一个内存的上限，当你超过这个上限的时候，就会出现 OOM。当应用在前台运行的时候，在尽量避免 OOM 的情况下，要合理利用好内存，毕竟以空间换时间还是很划算的。在应用退出或在后台运行的时候，就要尽量释放内存，做一个好孩子，可以尽量避免被系统 kill 掉的风险。</p>
+<h3 id="gpu-占用">GPU 占用</h3>
+<p>当 GPU 的使用量过高的情况下，优先要考虑一下是否有过度绘制。个人认为，过度绘制是高 GPU 使用的一个主要因素。过度绘制可以通过开发者选项打开查看，非常建议开发者在做 UI 的时候打开这个选项，这样可以很清楚的知道布局是否合理。</p>
+<h3 id="流量使用">流量使用</h3>
+<p>在目前国内的环境下，移动数据流量还是比较贵的，监控以下用户的流量还是有一定必要的，特别是移动数据的流量。</p>
+<h3 id="耗电量">耗电量</h3>
+<p>安卓系统的设置里，可以查看到每个应用的耗电量。目前不清楚这个电量的计算是否足够科学严谨，但至少从一定程度上可以反映出你的应用运行的频率。</p>
+<h3 id="电池温度">电池温度</h3>
+<p>在一些第三方测评平台和第三方统计平台上，可以看到他们提供了一个电池温度的数据。目前猜测可能是不能准确获取耗电量，但是电池温度可以作为一个参考依据。</p>
+<h3 id="fps">FPS</h3>
+<p>渲染的帧速，正常情况下，一秒钟需要渲染 60 帧，也就是每帧大概需要在 16ms 内渲染完成，如果某一帧的渲染超过了 16ms，就会导致丢帧，从视觉上就出现了卡顿的现象，或者看上去没有那么的丝滑了。</p>
+<h3 id="硬盘占用disk占用">硬盘占用/DISK占用</h3>
+<p>大部分 App 在运行的过程中，或多或少需要在用户的磁盘上存储一些数据、缓存。如果只关心存，没有关心怎么管理的话，直接的影响是用户的磁盘空间被无情的占用和浪费了。一直以来，很多开发者都是这么干的。所以，有了一些第三方的清理应用，他们会帮助用户清理掉这些文件的。如果你没有足够的实力买通这些第三方清理工具，让他们把你的目录放入他们的白名单里，那么你就会发现你存放的文件莫名的没了。</p>
+<p>当然，用户也可能自己手动删除这些文件、目录的，甚至因为你的文件异常的大，超出了用户心里接受范围，用户可能会思考一下，这个应用是否有存在的必要，你的应用可能不保。</p>
+<h3 id="崩溃率">崩溃率</h3>
+<p>很多第三方的统计工具都可以帮助收集崩溃数据并且上报，这些数据非常重要。开发者需要认真对待，并且及时处理这些问题。</p>
+
+    </div>
+
+    
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/android/">Android</a>
+          <a href="/tags/%E6%8A%80%E6%9C%AF/">技术</a>
+          <a href="/tags/%E6%80%A7%E8%83%BD/">性能</a>
+          <a href="/tags/%E6%8C%87%E6%A0%87/">指标</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/post/%E7%9C%8B%E9%87%91%E5%BA%B8%E9%9A%8F%E7%AC%94/">
+            <span class="next-text nav-default">看《金庸》随笔</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+  <a href="http://nreckle.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2020 - 
+    2021<span class="heart"><i class="iconfont icon-heart"></i></span><span>Copyright (c) 2020, all rights reserved.</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c12618f9a600c40bd024996677e951e64d3487006775aeb22e200c990006c5c7.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -2,29 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://nreckle.github.io/tags/android/</loc>
+    <lastmod>2021-01-07T15:24:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/categories/android/</loc>
+    <lastmod>2021-01-07T15:24:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/post/android-%E5%BA%94%E7%94%A8%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87/</loc>
+    <lastmod>2021-01-07T15:24:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://nreckle.github.io/categories/</loc>
-    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <lastmod>2021-01-07T15:24:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/post/</loc>
-    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <lastmod>2021-01-07T15:24:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/tags/</loc>
-    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <lastmod>2021-01-07T15:24:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nreckle.github.io/</loc>
-    <lastmod>2020-12-21T19:39:33+08:00</lastmod>
+    <lastmod>2021-01-07T15:24:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/tags/%E6%80%A7%E8%83%BD/</loc>
+    <lastmod>2021-01-07T15:24:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2021-01-07T15:24:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nreckle.github.io/tags/%E6%8C%87%E6%A0%87/</loc>
+    <lastmod>2021-01-07T15:24:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

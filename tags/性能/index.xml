@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>性能 on </title>
+    <link>http://nreckle.github.io/tags/%E6%80%A7%E8%83%BD/</link>
+    <description>Recent content in 性能 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2020, all rights reserved.</copyright>
+    <lastBuildDate>Thu, 07 Jan 2021 15:24:17 +0800</lastBuildDate><atom:link href="http://nreckle.github.io/tags/%E6%80%A7%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android 应用性能指标</title>
+      <link>http://nreckle.github.io/post/android-%E5%BA%94%E7%94%A8%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87/</link>
+      <pubDate>Thu, 07 Jan 2021 15:24:17 +0800</pubDate>
+      
+      <guid>http://nreckle.github.io/post/android-%E5%BA%94%E7%94%A8%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87/</guid>
+      <description>TODO: 检测方式&amp;amp;优化方向 一个 App 的定位，由产品经理和老板负责；一个 App 的用户体验由 UI/UE 负责；一个 App 的性能和稳定由开发者负责。三者都是一个 App 是否</description>
+    </item>
+    
+  </channel>
+</rss>
