@@ -35,5 +35,14 @@
       <description>君子曰：学不可以已。 青，取之于蓝，而青于蓝；冰，水为之，而寒于水。木直中绳，輮以为轮，其曲中规。虽有槁暴，不复挺者，輮使之然也。故木受绳则直</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>http://nreckle.github.io/post/oomadj-%E8%AE%BE%E8%AE%A1-%E7%BF%BB%E8%AF%91/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://nreckle.github.io/post/oomadj-%E8%AE%BE%E8%AE%A1-%E7%BF%BB%E8%AF%91/</guid>
+      <description>Oom Adjuster 设计 1. Oom Adjuster 目的 Android 操作系统运行在一个硬件资源非常有限的情况下，即：CPU RAM 电量等。为了有更好的性能体验，引入 oom Adjuster 来调整以下三个主要因素： 进</description>
+    </item>
+    
   </channel>
 </rss>
